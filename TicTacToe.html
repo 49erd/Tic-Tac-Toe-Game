@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="refactorWithOOP.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+    <link href="TicTacToe.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Jeff's Dope Tic Tac Toe Game</h1>
+    <div id="message">Welcome to the Game!</br>
+      Click the Play Game button below to get started!</div>
+    <div class="buttons">
+      <button id="startGame">Play Game!</button>
+    </div>
+    <div id='board'>
+      <!-- the `&nbsp;` in each div is a non-breakable space.
+           It prevents the div from collapsing. -->
+<!--            <table id="gameBoard">
+             <tr>
+               <td><div class='box'>&nbsp;</div></td>
+               <td><div class='box'>&nbsp;</div></td>
+               <td><div class='box'>&nbsp;</div></td>
+             </tr>
+             <tr>
+               <td><div class='box'>&nbsp;</div></td>
+               <td><div class='box'>&nbsp;</div></td>
+               <td><div class='box'>&nbsp;</div></td>
+             </tr>
+             <tr>
+               <td><div class='box'>&nbsp;</div></td>
+               <td><div class='box'>&nbsp;</div></td>
+               <td><div class='box'>&nbsp;</div></td>
+             </tr>
+           </table>
+       -->
+      <div class='box' id='b0'>&nbsp;</div>
+      <div class='box' id='b1'>&nbsp;</div>
+      <div class='box' id='b2'>&nbsp;</div>
+      <div class='box' id='b3'>&nbsp;</div>
+      <div class='box' id='b4'>&nbsp;</div>
+      <div class='box' id='b5'>&nbsp;</div>
+      <div class='box' id='b6'>&nbsp;</div>
+      <div class='box' id='b7'>&nbsp;</div>
+      <div class='box' id='b8'>&nbsp;</div>
+      </div>
+      <div class="buttons">
+        <button id="refreshBoard">Refresh Gameboard</button>
+      </div>
+  </body>
+</html>
